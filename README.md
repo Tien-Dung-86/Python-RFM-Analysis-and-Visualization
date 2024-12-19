@@ -1,6 +1,6 @@
 <h2>[Python] RFM Analysis and Visualization</h2> <br/><br/>
 
-<h3>I. Introduction</h3> <br/>
+<h3>I. Introduction</h3>
 
 In this project, I conducted an **RFM** (Recency, Frequency, Monetary) analysis for a **global retail company** - SuperStore, utilizing Python to segment customers and deliver actionable insights **for the Marketing and Sales teams**. Through exploratory **data analysis**, **segmentation modeling**, and visualizations, I supported the teams in optimizing customer engagement and enhancing strategic decision-making by identifying key customer groups for targeted campaigns.
 <br/>
@@ -21,7 +21,7 @@ This is a transnational data set which contains all the transactions occurring b
 | Country | Country name. Nominal, the name of the country where each customer resides. |
 <br/>
 
-<h3>II. Data Preparation</h3> <br/>
+<h3>II. Data Preparation</h3>
 
 **Convert type** <br/><br/>
 'UnitPrice' and 'CustomerID' are current type is 'float64' -> convert type to 'int64' 
@@ -128,7 +128,7 @@ rfm_df['Segment'] = rfm_df['RFM_Score'].apply(assign_segment)
 ```
 <br/>
 
-<h3>III. Data Visualization and Insight</h3> <br/>
+<h3>III. Data Visualization and Insight</h3>
 
 **RFM Distribution Analysis**
 ```
